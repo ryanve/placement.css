@@ -26,7 +26,6 @@ npm install placement.css
 - `.middle` vertical center
 - `.centre` vertical and horizontal center
 
-
 ### [edge.css](https://github.com/ryanve/edge.css/tree/v0.2.0)
 
 - `.edge-0`
