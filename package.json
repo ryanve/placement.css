@@ -1,0 +1,33 @@
+{
+  "name": "placement.css",
+  "version": "0.0.0",
+  "description": "Functional CSS positioning bundle",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "placement.css",
+  "scripts": {
+    "build": "concat-cli --files node_modules/position.css/position.css node_modules/at.css/at.css node_modules/edge.css/edge.css -o placement.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/placement.css.git"
+  },
+  "keywords": [
+    "css",
+    "atomic",
+    "position",
+    "placement",
+    "positioning",
+    "functional-css"
+  ],
+  "bugs": {
+    "url": "https://github.com/ryanve/placement.css/issues"
+  },
+  "homepage": "https://github.com/ryanve/placement.css#readme",
+  "devDependencies": {
+    "at.css": "^0.2.0",
+    "concat-cli": "^4.0.0",
+    "edge.css": "^0.2.0",
+    "position.css": "^0.1.1"
+  }
+}
